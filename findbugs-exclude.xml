@@ -1,0 +1,34 @@
+<FindBugsFilter>
+    <Match>
+        <Bug pattern="EI_EXPOSE_REP2"/></Match>
+    <Match>
+        <Bug pattern="EI_EXPOSE_REP"/>
+    </Match>
+    <Match>
+        <Bug pattern="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE"/>
+    </Match> 
+    <Match>
+        <Bug pattern="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE"/>
+    </Match> 
+    <Match>
+        <Bug pattern="NP_NULL_ON_SOME_PATH_EXCEPTION"/>
+    </Match>  
+    <Match>
+        <Bug pattern="OS_OPEN_STREAM_EXCEPTION_PATH"/>
+    </Match>
+    <Match>
+        <Bug pattern="IT_NO_SUCH_ELEMENT"/>
+    </Match>
+    <Match>
+        <Bug pattern="DLS_DEAD_LOCAL_STORE"/>
+    </Match>
+    <Match>
+        <Bug pattern="RV_RETURN_VALUE_IGNORED"/>
+    </Match>
+    <Match>
+        <Bug pattern="UWF_UNWRITTEN_FIELD"/>
+    </Match>
+    <Match>
+        <Source name="~.*\.scala"/>
+    </Match>
+</FindBugsFilter>
